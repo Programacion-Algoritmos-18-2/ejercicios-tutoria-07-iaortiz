@@ -40,7 +40,7 @@ public class Futbolista extends PersonaEquipo {
 
    @Override
    public void entrenamiento() {
-      System.out.printf("%s ,Realiza un entrenamiento. Su número es: %d\n", getNombre(),getDorsal());
+      System.out.printf("- %s %s, realiza un entrenamiento, su número dorsal es: %d\n", getNombre(), getApellidos(),getDorsal());
    }
 
    

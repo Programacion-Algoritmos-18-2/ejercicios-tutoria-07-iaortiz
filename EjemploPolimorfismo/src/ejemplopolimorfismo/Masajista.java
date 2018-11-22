@@ -29,7 +29,7 @@ public class Masajista extends PersonaEquipo {
 
     @Override
     public void entrenamiento() {
-        System.out.printf("%s   ,Da asistencia en el entrenamiento. Su título es: %s\n", getNombre(),getTitulacion());
+        System.out.printf("- %s %s, da asistencia en el entrenamiento, su título es: %s\n", getNombre(), getApellidos() ,getTitulacion());
     }
 
     public void darMasaje() {
